@@ -1,8 +1,6 @@
-import math
-n=int(input())
-root=math.sqrt(n)
-if(n==int(root)**2):
-    print('True')
+n = int(input())
+a = n**(1/2)
+if a == int(a):
+    print("True")
 else:
-    print('False')
-    
+    print("False")
